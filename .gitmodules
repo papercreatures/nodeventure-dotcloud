@@ -1,0 +1,3 @@
+[submodule "nodeventure"]
+	path = nodeventure
+	url = git@github.com:l4rp/nodeventure.git

@@ -1,0 +1,8 @@
+www:
+  type: custom
+  process: node server.js
+  approot: nodeventure
+  buildscript: nodejs/builder
+  ports:
+    www: http 
+  node_version: v0.6.19
