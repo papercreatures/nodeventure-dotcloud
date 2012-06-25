@@ -2,7 +2,7 @@ www:
   type: custom
   process: node server.js
   approot: nodeventure
-  prebuild: ./prebuild.sh
+  postbuild: ./prebuild.sh
   buildscript: nodejs/builder
   ports:
     www: http 
